@@ -1,1 +1,295 @@
+/*Reglas globales*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+h2{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3{
+
+    margin-bottom: 10px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    
+    color: white;
+
+}
+
+p{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: white;
+}
+
+button{
+    
+    border-radius: 20px;
+}
+
+/*Container*/
+
+.container{
+    margin:auto;
+    width: 100%;
+    max-width: 960px;
+    height: 100vh;
+
+}
+
+
+/*banner*/
+.banner{
+    position: relative;
+    width: 100%;
+    height: 57%;
+}
+
+.banner-titulo{
+    position: absolute;
+    left: 328px;
+    top: 50px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: white;
+}
+
+.banner-descripcion{
+    position: absolute;
+    background: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+    width: 35%;
+    left: 66px;
+    bottom: 177px;
+    padding: 10px;
+
+}
+
+.banner-descripcion p{
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 31px;
+    
+}
+
+.foto{
+    image-rendering: auto;
+}
+
+
+/* about me*/
+
+.about{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7299FE;
+    padding: 20px;
+    
+}
+
+.about-description{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.button-cv{
+    margin-top: 10px;
+    padding: 2% 5%;
+
+    background: #D16FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    outline: none;
+
+}
+
+/*my skill*/
+
+.skill{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9122FF;
+    padding: 20px;
+
+}
+
+.container-language{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.barras{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+
+}
+
+.barra-white{
+    width: 98%;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+.barra-blue{
+    width: 50%;
+    height: 100%;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+/* Portafolio*/
+
+.portafolio{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFD233;
+    padding: 20px;
+
+}
+
+.container-portafolio{
+    display: flex;
+    width: 62%;
+    height: 40%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+
+.container-portafolio img{
+    width: 100%;
+}
+
+/*Clientes*/
+
+.clientes{
+    display: flex;
+    width: 100%;
+    padding: 20px 20px 40px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3F4E62;
+}
+
+.container-figure{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title-cliente{
+    margin-top: 30px;
+}
+
+.container-figure figure{
+    margin-left: 10px;
+}
+
+/*contacto*/
+
+.contacto{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1687A0;
+    padding: 20px;
+}
+
+.title-contacto{
+    color: #FF1B1B;
+    margin: 5% 0;
+}
+
+.form{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.input{
+    width: 40%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    margin: 0 10px 10px;
+}
+
+
+.textarea{
+    width: 86%;
+    height: 35%;
+    padding: 10px 0 0 10px;
+    margin-bottom: 10px;
+
+}
+
+.btn-enviar{
+    
+    padding: 2% 5%;
+    background: #233451;
+    color: white;
+    border-radius: 0;
+}
+
 
