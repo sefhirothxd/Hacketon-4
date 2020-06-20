@@ -61,6 +61,7 @@ button{
 .banner{
     position: relative;
     width: 100%;
+    
 }
 
 
@@ -96,11 +97,6 @@ button{
     line-height: 31px;
     
 }
-
-.foto{
-    image-rendering: auto;
-}
-
 
 /* about me*/
 
